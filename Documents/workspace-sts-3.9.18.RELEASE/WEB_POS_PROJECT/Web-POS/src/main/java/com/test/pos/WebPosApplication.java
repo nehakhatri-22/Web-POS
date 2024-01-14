@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WebPosApplication { 
 
 	public static void main(String[] args) {
+		System.out.print("application starting");
 		SpringApplication.run(WebPosApplication.class, args);
+		
 	}
 
 }
